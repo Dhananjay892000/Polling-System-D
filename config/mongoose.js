@@ -1,7 +1,7 @@
 // configuration for creating database connection
 const mongoose = require('mongoose');
 
-mongoose.connect(process.env.MONGO_DB);
+mongoose.connect("mongodb+srv://Dhananjay:Dhanu@123@cluster0.s1jdgq3.mongodb.net/polling_system?retryWrites=true&w=majority");
 
 const db = mongoose.connection;
 
